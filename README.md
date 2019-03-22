@@ -1,4 +1,4 @@
-#nathan-rectangle-scan
+# nathan-rectangle-scan
 
 Scans an image to see if there is a rectangle in a predefined place.
 
