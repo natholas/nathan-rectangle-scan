@@ -1,5 +1,5 @@
 export class RectCheck {
-  public ops: any = { maxBrightness: 230, minBrightness: 25, edgeThreshhold: 200, minContrast: 50, scale: 0.5, searchWidth: 35 }
+  public ops: any = { maxBrightness: 230, minBrightness: 25, edgeThreshhold: 250, minContrast: 80, scale: 0.5, searchWidth: 30 }
   sobelX = [-1, 0, 1, -2, 0, 2, -1, 0, 1]
   sobelY = [-1, -2, -1, 0, 0, 0, 1, 2, 1]
   blur = [1, 1, 1, 1, 1, 1, 1, 1, 1]
