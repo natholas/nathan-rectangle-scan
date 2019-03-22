@@ -1,4 +1,4 @@
-# nathan-rectangle-scan
+# Rectangle scan
 
 Scans an image to see if there is a rectangle in a predefined place.
 
@@ -9,8 +9,8 @@ Scans an image to see if there is a rectangle in a predefined place.
 ```javascript
 const checker = new RectCheck();
 const image = new Image();
-image.onload = () => alert(checker.check(image, x, y, width, height)) ? 'Found a rectangle!' : 'Didn't find it'
-image.src = '..someimage.jpg';
+image.onload = () => alert(checker.check(image, x, y, width, height)) ? "Found a rectangle!" : "Didn't find it"
+image.src = "path-to-some-image.jpg";
 ```
 
 ## Demo
