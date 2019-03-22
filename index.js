@@ -4,7 +4,7 @@ var RectCheck = /** @class */ (function () {
     function RectCheck(ops) {
         if (ops === void 0) { ops = {}; }
         var _this = this;
-        this.ops = { maxBrightness: 230, minBrightness: 25, edgeThreshhold: 200, minContrast: 80, scale: 0.5, searchWidth: 30 };
+        this.ops = { maxBrightness: 230, minBrightness: 25, edgeThreshhold: 250, minContrast: 80, scale: 0.5, searchWidth: 30 };
         this.sobelX = [-1, 0, 1, -2, 0, 2, -1, 0, 1];
         this.sobelY = [-1, -2, -1, 0, 0, 0, 1, 2, 1];
         this.blur = [1, 1, 1, 1, 1, 1, 1, 1, 1];

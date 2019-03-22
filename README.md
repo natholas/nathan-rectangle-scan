@@ -23,10 +23,10 @@ When instantiating the RectCheck class you can pass an object with options.
 
 | name            | default  | description                                                                               |
 | --------------- |:--------:| :---------------------------------------------------------------------------------------- |
-| edgeThreshhold  | 200      | how much of the search area has to be covered in edge for it to be considered valid       |
-| minContrast     | 50       | The amount of contrast needed to be considered an edge                                    |
+| edgeThreshhold  | 250      | how much of the search area has to be covered in edge for it to be considered valid       |
+| minContrast     | 80       | The amount of contrast needed to be considered an edge                                    |
 | scale           | 0.5      | The amount to scale the image by before running the edge detection (lower is faster)      |
-| searchWidth     | 35       | The width (on side sides, height on top and bottom) to search for edges around input area |
+| searchWidth     | 30       | The width (on side sides, height on top and bottom) to search for edges around input area |
 
 ## Building
 
