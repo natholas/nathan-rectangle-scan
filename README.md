@@ -1,4 +1,4 @@
-#nathan-rectangle-scan
+# nathan-rectangle-scan
 
 Scans an image to see if there is a rectangle in a predefined place.
 
@@ -21,8 +21,8 @@ or visit the [Live demo](https://rect.nathanfelix.com)
 When instantiating the RectCheck class you can pass an object with options.
 `const checker = new RectCheck(options)`
 
-| name            | default  | description |
-| --------------- |:--------:| -----------:|
+| name            | default  | description                                                                               |
+| --------------- |:--------:| :---------------------------------------------------------------------------------------- |
 | edgeThreshhold  | 200      | how much of the search area has to be covered in edge for it to be considered valid       |
 | minContrast     | 50       | The amount of contrast needed to be considered an edge                                    |
 | scale           | 0.5      | The amount to scale the image by before running the edge detection (lower is faster)      |

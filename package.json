@@ -1,8 +1,13 @@
 {
   "name": "nathan-rectangle-scan",
-  "version": "1.1.2",
-  "description": "",
+  "version": "1.1.4",
+  "description": "Detect a rectangle in an image at a specific location using Javascript",
+  "keywords": ["Rectangle detection", "Javscript rectangle detection", "Scan image for rectangle"],
   "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/natholas/nathan-rectangle-scan/issues"
+  },
+  "homepage": "https://github.com/natholas/nathan-rectangle-scan#readme",
   "scripts": {
     "demo": "gulp",
     "start": "gulp"
@@ -21,10 +26,10 @@
     "tsify": "^4.0.1",
     "typescript": "^3.3.3333",
     "vinyl-buffer": "^1.0.1",
-    "vinyl-source-stream": "^2.0.0"
-  },
-  "dependencies": {
+    "vinyl-source-stream": "^2.0.0",
     "del": "^3.0.0",
     "requirejs": "^2.3.6"
+  },
+  "dependencies": {
   }
 }
