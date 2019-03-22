@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #eee;
+}
+
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+video {
+  width: 100%;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 65%;
+  padding-top: 100%;
+  border: 2px solid white;
+  text-align: center;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.overlay span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  display: none;
+}
+
+.overlay span.default {
+  display: block;
+}
+
+.overlay.lined-up span.default,
+.overlay.done span.default {
+  display: none;
+}
+
+.overlay.lined-up span.lined-up,
+.overlay.done span.done {
+  display: block;
+}
+
+.overlay.lined-up {
+  border-color: yellow;
+}
+
+.overlay.done {
+  border-color: green;
+  background-color: rgba(50,255,50,0.2);
+}
+
+.image-overlay {
+  position: absolute;
+  top: 142px;
+  left: 211px;
+  border: 2px solid red;
+  width: 1089px;
+  height: 559px;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.image-overlay.found {
+  border-color: green;
+  background: rgba(0,255,0,0.1);
+}
+
+img {
+  display: block;
+}
+
+input[type="range"] {
+  width: 100%;
+}
+
+button {
+  margin: 0 auto;
+  display: block;
+  font-size: 20px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Rectangle scan</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="rectangle-scan.js"></script>
+</head>
+<body>
+  <div class="container">
+    <img id="test-image">
+    <h2>Upload a different image</h2>
+    <input type="file" id="test-input">
+    <div class="image-overlay"></div>
+
+    <h2>Move these sliders to test the rectangle detection.</h2>
+
+    <label>Top</label>
+    <input type="range" id="topEl" class="top" max="1000" min="0" value="117"><br>
+    <label>Left</label>
+    <input type="range" id="leftEl" class="left" max="1000" min="0" value="105"><br>
+    <label>Width</label>
+    <input type="range" id="widthEl" class="width" max="1000" min="0" value="308"><br>
+    <label>Height</label>
+    <input type="range" id="heightEl" class="height" max="1000" min="0" value="206"><br>
+  </div>
+  <script src="demo.js"></script>
+</body>
+</html>
