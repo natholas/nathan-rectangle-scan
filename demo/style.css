@@ -95,3 +95,8 @@ button {
   display: block;
   font-size: 20px;
 }
+
+.sliders {
+  margin: 20px;
+  max-width: 700px;
+}
