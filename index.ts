@@ -11,7 +11,7 @@ export class RectCheck {
   public check(image: HTMLImageElement, x: number, y: number, w: number, h: number) {
     const canvas = document.createElement('canvas')
     const ctx = canvas.getContext('2d')
-    const width = image.clientWidth, height = image.clientHeight
+    const width = image.naturalWidth, height = image.naturalHeight
     canvas.width = width * this.ops.scale
     canvas.height = height * this.ops.scale
     const sh = this.ops.searchWidth
