@@ -54,7 +54,7 @@ var RectCheck = /** @class */ (function () {
         var _this = this;
         var canvas = document.createElement('canvas');
         var ctx = canvas.getContext('2d');
-        var width = image.clientWidth, height = image.clientHeight;
+        var width = image.naturalWidth, height = image.naturalHeight;
         canvas.width = width * this.ops.scale;
         canvas.height = height * this.ops.scale;
         var sh = this.ops.searchWidth;
